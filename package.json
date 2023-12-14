@@ -21,11 +21,6 @@
     "prettier": "prettier --write \"./**/*.{ts,tsx,json,scss,css}\"",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",

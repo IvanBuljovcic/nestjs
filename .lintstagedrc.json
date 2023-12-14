@@ -1,6 +1,3 @@
 {
-  "*.ts": [
-    "pnpm run prettier",
-    "pnpm run lint"
-  ]
+  "*.ts": ["pnpm run prettier", "pnpm run lint"]
 }
