@@ -26,9 +26,6 @@
       "pre-commit": "lint-staged"
     }
   },
-  "lint-staged": {
-    "*.ts": ["pnpm run prettier", "pnpm run lint"]
-  },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
